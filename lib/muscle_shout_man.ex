@@ -13,7 +13,6 @@ defmodule MuscleShoutMan do
     {:ok, state}
   end
   def handle_event(message = %{type: "message"}, slack, state) do
-    IO.inspect message
     %{text: text} = message
     if text |> String.ends_with?(":muscle:") do
       shout(message.user, slack, message.channel)
@@ -22,7 +21,6 @@ defmodule MuscleShoutMan do
     {:ok, state}
   end
   def handle_event(message, _, state) do
-    IO.inspect message
     {:ok, state}
   end
 
