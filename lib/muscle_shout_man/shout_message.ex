@@ -72,6 +72,11 @@ defmodule MuscleShoutMan.ShoutMessage do
     そこまで仕上げるために眠れない夜もあっただろうに
     マッチョの満員電車だな
     来年頑張れ:exclamation:
+    $user$の腹斜筋で大根をすりおろしたい
+    世界一:exclamation:筋肉ノーベル賞
+    腹筋6LDK
+    血管うねうねマスクメロン
+    背中広すぎてパンこねれるわい
   )
 
   def message(userid) do
